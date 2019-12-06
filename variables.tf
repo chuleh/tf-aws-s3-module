@@ -19,7 +19,6 @@ variable "acl" {
 variable "region" {
   description = "where to create the bucket"
   type = string
-  default = ""
 }
 
 variable "force_destroy" {
